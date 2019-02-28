@@ -41,6 +41,8 @@ THE SOFTWARE.
 ===============================================
 */
 
+#define I2C_PATH "/dev/i2c-1"
+
 #ifndef _I2CDEV_H_
 #define _I2CDEV_H_
 

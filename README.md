@@ -1,3 +1,22 @@
+
+MPU6050 teapot demo with DMP, or Digital Motion Processor in C++
+
+MPU6050-Pi-Demo
+
+```
+sudo apt-get install libgtkmm-3.0-dev
+sudo i2cdetect -y 1
+make
+./3d_demo_3d
+./demo_dmp
+./demo_raw
+```
+
+I2Cdev.h and I2Cdev.cpp modified for I2C_PATH.
+```#define I2C_PATH "/dev/i2c-1"```
+Original was "/dev/i2c-0" in three locations in I2Cdev.cpp
+
+
 PiBits
 ======
 

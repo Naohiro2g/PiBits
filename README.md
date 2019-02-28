@@ -16,7 +16,8 @@ I2Cdev.h and I2Cdev.cpp modified for I2C_PATH.
 ```#define I2C_PATH "/dev/i2c-1"```
 Original has "/dev/i2c-0" in three locations in I2Cdev.cpp
 
-https://www.okahiro.info/gd/2016/10/05/post-1971/
+https://www.okahiro.info/gd/2016/10/07/post-1978/
+
 
 PiBits
 ======

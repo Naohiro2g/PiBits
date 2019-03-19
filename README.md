@@ -7,7 +7,8 @@ MPU6050-Pi-Demo
 sudo apt-get install libgtkmm-3.0-dev
 sudo i2cdetect -y 1
 make
-./3d_demo_3d
+cd MPU6050-Pi-Demo
+./demo_3d
 ./demo_dmp
 ./demo_raw
 ```
